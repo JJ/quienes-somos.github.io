@@ -16,6 +16,7 @@
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+		<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -27,6 +28,11 @@
 			link.type = 'text/css';
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+		<script>window.onload = function() {
+		  cartodb.createVis('maprelcontrib', 'https://jmerelougr.cartodb.com/api/v2/viz/fcb20828-7cd5-11e5-9ffe-0e31c9be1b51/viz.json');
+}
 		</script>
 
 		<!--[if lt IE 9]>
@@ -107,6 +113,7 @@ alt='panel de GitHub'></section>
 				  </section>
 				</section>
 
+				<section id='maprelcontrib'></section>
 				<section style="text-align: left;">
 				  <h2>Por <a href="http://jj.github.io">JJ Merelo</a> / <a href="http://twitter.com/jjmerelo">@jjmerelo</a><h2>
 				    <h3><a href='http://osl.ugr.es'>Oficina de Software Libre, Universidad de Granada</a>, <a href='http://twitter.com/oslugr'><code>@oslugr</code></a></h3>

@@ -11,14 +11,14 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #fff;
-  background-color: #fff; }
+  background: #3D362D;
+  background-color: #3D362D; }
 
 .reveal {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-size: 38px;
   font-weight: normal;
-  color: #222; }
+  color: #FEFFFD; }
 
 ::selection {
   color: #fff;
@@ -34,7 +34,7 @@ body {
  *********************************************/
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
   margin: 0 0 20px 0;
-  color: #222;
+  color: #FEFFFD;
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-weight: 600;
   line-height: 1.2;
@@ -187,14 +187,14 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #2a76dd;
+  color: #FF9900;
   text-decoration: none;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
   transition: color 0.15s ease; }
 
 .reveal a:hover {
-  color: #6ca2e8;
+  color: #ff9922;
   text-shadow: none;
   border: none; }
 

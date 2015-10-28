@@ -4,6 +4,9 @@ language.province <- read.csv("place-language.csv")
 language.top25 <- as.data.frame(summary(language.province$language, max=25))
 language.top25.df <- data.frame(language=row.names(language.top25), 
                                 devs=language.top25$"summary(language.province$language, max = 25)")
+languages.top50 <- as.data.frame(summary(language.province$language), max=50)
+language.province.count <- data.frame(language=row.names(languages.top50),
+                                      devs=language.top50$"summary(language.province$language, max = 50)")
 
 ggplot()+geom_bar(data=language.top25.df,aes(reorder(language,devs),y=devs),stat="identity")+coord_flip()+theme_bw()
 ggplot( data=language.top25.df, aes(x="",y=devs,fill=factor(language)))+ geom_bar(width=1,stat='identity') + coord_polar(theta='y') + scale_fill_grey(start=0.1, end=1)+theme_bw()

@@ -47,8 +47,9 @@ body {
   font-size: 2.5em; }
 
 
-.big.reveal h1 {
-  font-size: 4em; }
+.big {
+  font-size: 200px; 
+}
 
 .reveal h2 {
   font-size: 1.6em; }

@@ -279,3 +279,7 @@ body {
   color: #2a76dd; }
 
 
+img.center {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}

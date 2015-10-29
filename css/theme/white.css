@@ -46,11 +46,22 @@ body {
 .reveal h1 {
   font-size: 2.5em; }
 
+
+.big.reveal h1 {
+  font-size: 4em; }
+
 .reveal h2 {
   font-size: 1.6em; }
 
+
+.big.reveal h2 {
+  font-size: 2.5em; }
+
 .reveal h3 {
   font-size: 1.3em; }
+
+.big.reveal h3 {
+  font-size: 2em; }
 
 .reveal h4 {
   font-size: 1em; }
@@ -265,3 +276,5 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #2a76dd; }
+
+
